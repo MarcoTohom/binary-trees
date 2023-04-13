@@ -41,4 +41,14 @@ public class Nodo {
         return true;
     }
 
+    @Override
+    public String toString() {
+        return "_____NODO_"+ String.valueOf(value) +"___" + 
+               "-> parent: " + String.valueOf(parent)    + 
+               "-> Hijo izquierdo: " + String.valueOf(left) + 
+               "-> Hijo derecho: " + String.valueOf(right);
+    }
+
+    
+
 }
