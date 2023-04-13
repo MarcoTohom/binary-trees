@@ -73,6 +73,7 @@ public class Principal {
                     System.out.println("CUIDADO: ¡Ingrese una opcion correcta!\n");
                     break;
             }
+            
         } while (i != 3);
 
     }
